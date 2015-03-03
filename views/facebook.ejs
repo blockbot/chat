@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%- title %></title>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="---------- ADD A LOCAL OR REMOTE URL WITH A MATCHING PORT NUMBER FOUNDIN APP.JS --------------/socket.io/socket.io.js"></script>
+		<link rel="stylesheet" href="---------- ADD A LOCAL URL WITH A MATCHING PORT NUMBER FOUNDIN APP.JS --------------/css/style.css" type="text/css" media="screen" />
+
+	</head>
+	<body class="facebook-getter twitter-getter">
+		
+		<div id="container">
+		
+			<a href="/">Chat it Up</a>
+			<a href="/test">test</a>
+			<a href="/facebook">Facebook</a>
+		
+			<h1><%- title %></h1>
+			
+			<p class="the-url"><strong>The post:</strong> </p>
+			<div class="fb-button">
+				<a href="javascript:void(0);" class="like-btn">Like it</a>
+				<span class="like-count"></span>
+			</div>
+		
+			<div class="twitter-button">
+				<a href="javascript:void(0);" class="tweet-btn">Tweet it</a>
+				<span class="tweet-count"></span>
+			</div>	
+		
+		</div>
+
+		<script src="---------- ADD A LOCAL URL WITH A MATCHING PORT NUMBER FOUNDIN APP.JS --------------/js/scripts.js"></script>	
+	
+	</body>
+</html>

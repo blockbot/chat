@@ -1,0 +1,28 @@
+{
+  "name": "cone-of-silence-chat",
+  "version": "0.1.0",
+  "description": "Quiet chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+ "dependencies": {
+    "express": "4.x",
+    "socket.io" : "1.x",
+    "request" : "2.x",
+    "ejs" : "1.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:cone-of-silence-chat.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Joey Dehnert"
+}
